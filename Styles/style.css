@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(211, 210, 210);
+}
+
+.container {
+    margin: auto;
+    width: 1146px;
+}
+
+.hero {
+    padding-top: 1px;
+    width: 1440px;
+    height: 883px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px 50px 0 0;
+}
+
+.hero header {
+    width: 100%;
+    height: 883px;
+}
+
+.hero header nav {
+    margin-top: 55px;
+    display: flex;
+    padding: 0px 0px 0px 1.932px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero header nav .left-side {
+    width: 1146px;
+    padding: 0px 0px 0px 1.932px;
+}
+
+.hero header nav .right-side {
+    display: flex;
+    justify-content: end;
+    /* column-gap: 42px; */
+    justify-content: space-between;
+    width: 553px;
+    height: 12px;
+}
+
+.hero header nav .right-side a {
+    color: #191919;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    /* flex-grow: 1; */
+}
+
+.hero header nav .right-side a:hover {
+    color: #121212;
+    text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+        0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+
+.hero header .content {
+    display: flex;
+    row-gap: 60px;
+    column-gap: 100px;
+    flex-flow: column wrap;
+    height: 597px;
+    margin-top: 120px;
+    margin-bottom: 142px;
+}
+
+.hero header .content h1 {
+    width: 563px;
+    color: #191919;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    /* 86.4px */
+    letter-spacing: 0.3px;
+}
+
+.hero header .content p {
+    color: #191919;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 28px */
+    width: 506px;
+}
+
+.hero header .content .subscription-wrapper {
+    display: flex;
+    width: 433px;
+}
+
+.hero header .content .subscription-wrapper input {
+    padding: 30px 0 30px 35px;
+    border-radius: 3px;
+    border: 1px solid #191919;
+    background: #FFF;
+    box-shadow: 0px 40px 70px 0px rgba(75, 75, 75, 0.07);
+    flex-grow: 1;
+}
+
+.hero header .content .subscription-wrapper input::placeholder {
+    color: #191919;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    /* 16px */
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+}
+
+.hero header .content .subscription-wrapper button {
+    width: 150px;
+    border: 1px solid transparent;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 170%;
+    /* 30.6px */
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    background-color: #3C4BA6;
+    cursor: pointer;
+}
+
+.hero header .content .image-wrapper {
+    position: relative;
+    padding-left: 20px;
+    overflow: hidden;
+}
+
+.hero header .content .image-wrapper .main-image {
+    border-top-left-radius: 70px;
+}
+
+.hero header .content .image-wrapper .wave1 {
+    position: absolute;
+    bottom: -16px;
+    left: -5px;
+}
+
+.hero header .content .image-wrapper .spiral {
+    position: absolute;
+    top: -20px;
+    right: 1px;
+}
+
+.hero main {
+    width: 1440px;
+    padding-top: 140px;
+    background-color: #F6F9FF;
+}
+
+.hero main h1 {
+    color: #191919;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    /* 74.4px */
+    letter-spacing: 0.3px;
+}
+
+.hero main .card {
+    
+}
