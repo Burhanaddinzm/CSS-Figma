@@ -39,9 +39,8 @@ header nav .left-side {
 
 header nav .right-side {
   display: flex;
-  justify-content: end;
-  /* column-gap: 42px; */
-  justify-content: space-between;
+  column-gap: 41px;
+  /* justify-content: space-around; */
   width: 553px;
   height: 12px;
 }
